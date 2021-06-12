@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+#wrapper
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+header{
+    cursor:alias;
+}
+
+#wrapper>*{
+    margin:16px;
+}
+
+.options{
+    width:420px;
+    display: flex;
+    justify-content: space-around;
+    transform:translateY(100%);
+}
+
+
+img{
+    cursor:pointer;
+
+}
+
+button{
+    margin-top: 100px;
+    padding:8px;
+    border:none;
+    background-color:darkgreen;
+    color:white;
+    border-radius: 8px;
+    cursor:pointer;
+}
+
+.final{
+    cursor:alias;
+}
+
+#trial{
+    padding:60px;
+}
